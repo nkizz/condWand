@@ -10,3 +10,7 @@ The project spans the following files:
 * `condWandNeo.py`: Runs on a Circuit Express, receives RGB values over USB and displays it on the built-in LEDs
 
 Other files include conversion utilities, test scripts, etc.
+
+# Teansformer Implementation
+ 
+ A basic transformer encoder is implemented based on [these algorithms for computing multi-headed self attention and positional encoding:](https://www.kaggle.com/code/arunprathap/transformer-encoder-implementation/notebook)
