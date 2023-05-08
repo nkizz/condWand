@@ -13,7 +13,7 @@ Other files include conversion utilities, test scripts, etc.
 
 # Transformer Implementation
  
- A basic transformer encoder is implemented based on [these algorithms for computing multi-headed self attention and positional encoding:](https://www.kaggle.com/code/arunprathap/transformer-encoder-implementation/notebook)
+`cond_wand_transformer_final.ipynb` A basic transformer encoder is implemented based on [these algorithms for computing multi-headed self attention and positional encoding:](https://www.kaggle.com/code/arunprathap/transformer-encoder-implementation/notebook)
 
 The self attention mechanism is adjusted to work on inertial data by feeding the model a 6-dimensional-embedded tokenized sequence of time-series data into a self-attention encoder (stacked with N Layers) followed by a multi-layer-perceptron output stage that classifies two seconds of self-attended time-samples into 13 tempo classes (e.g. 65 bpm or 70 bpm or 120 bpm, etc.)
 
