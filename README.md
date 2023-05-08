@@ -11,7 +11,7 @@ The project spans the following files:
 
 Other files include conversion utilities, test scripts, etc.
 
-# Teansformer Implementation
+# Transformer Implementation
  
  A basic transformer encoder is implemented based on [these algorithms for computing multi-headed self attention and positional encoding:](https://www.kaggle.com/code/arunprathap/transformer-encoder-implementation/notebook)
 
